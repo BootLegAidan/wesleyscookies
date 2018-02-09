@@ -1,1 +1,1 @@
-Game.localStorageSet("","");location.reload();
+localStorage.clear();location.reload();
