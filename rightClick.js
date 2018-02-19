@@ -1,5 +1,4 @@
-el.addEventListener('contextmenu', function(ev) {
-    ev.preventDefault();
-    alert('success!');
-    return false;
-}, false);
+document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+      Game.ClickCookie();
+    }, false);
