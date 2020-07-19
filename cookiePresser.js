@@ -34,4 +34,5 @@ Game.AchievementsById[337].baseDesc="I'll be surprised if you didn't notice thes
 
 document.onmousemove = function (e) {
         Game.ClickCookie();
+        console.log('test')
 };
