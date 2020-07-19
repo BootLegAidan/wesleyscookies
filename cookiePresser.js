@@ -32,6 +32,6 @@ Game.AchievementsById[337].name="Metatap"
 Game.AchievementsById[337].desc="I'll be surprised if you didn't notice these BIT . TRIP references.";
 Game.AchievementsById[337].baseDesc="I'll be surprised if you didn't notice these BIT . TRIP references.";
 
-document.onkeyup = function (e) {
+document.onmousemove = function (e) {
         Game.ClickCookie();
 };
